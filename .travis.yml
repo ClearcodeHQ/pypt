@@ -8,4 +8,4 @@ install:
     - "python setup.py install"
     - "pip install namespace.package[tests] --use-mirrors"
 script:
-    - nosetests
+    - "python setup.py nosetests"
