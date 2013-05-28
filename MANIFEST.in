@@ -1,0 +1,4 @@
+include *.rst *.py
+recursive-include namespace *.py
+recursive-include docs *
+prune docs/build
