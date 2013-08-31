@@ -1,6 +1,10 @@
 # -*- coding: utf-8 -*-
+# Copyright (c) 2013 by pypt authors and contributors <see AUTHORS file>
 #
-# tzf.pyramid_yml documentation build configuration file, created by
+# This module is part of pypt and is released under
+# the MIT License (MIT): http://opensource.org/licenses/MIT
+#
+# pypt documentation build configuration file, created by
 # sphinx-quickstart on Thu Nov  8 20:47:06 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
