@@ -21,7 +21,7 @@ test_requires = [
 ]
 
 extras_require = {
-    'docs': ['sphinx', 'sphinx_bootstrap_theme'],
+    'docs': ['sphinx'],
     'tests': test_requires
 }
 
