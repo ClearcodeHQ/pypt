@@ -36,7 +36,7 @@ setup(
     ),
     keywords='python template',
     author='Grzegorz Sliwinski',
-    author_email='username: fizyk, domain: fizyk.net.pl',
+    author_email='fizyk@fizyk.net.pl',
     url='https://github.com/fizyk/pypt',
     license="MIT License",
     classifiers=[
