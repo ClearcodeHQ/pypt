@@ -9,12 +9,12 @@ pypt
     :target: https://coveralls.io/r/fizyk/package?branch=master
     :alt: Coverage Status
 
-.. image:: https://pypip.in/v/namespace.package/badge.png
-    :target: https://crate.io/packages/namespace.package/
+.. image:: https://pypip.in/v/pypt/badge.png
+    :target: https://crate.io/packages/pypt/
     :alt: Latest PyPI version
 
-.. image:: https://pypip.in/d/namespace.package/badge.png
-    :target: https://crate.io/packages/namespace.package/
+.. image:: https://pypip.in/d/pypt/badge.png
+    :target: https://crate.io/packages/pypt/
     :alt: Number of PyPI downloads
 
 python package template - to make easier for me to duplicate general package structure.

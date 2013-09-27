@@ -6,7 +6,7 @@ python:
     - "3.3"
 install:
     - "python setup.py install"
-    - "pip install namespace.package[tests] coveralls --use-mirrors"
+    - "pip install pypt[tests] coveralls --use-mirrors"
 script:
     - "python setup.py nosetests"
 after_success:

@@ -47,7 +47,7 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'namespace.package'
+project = u'pypt'
 basename = ''.join(project.split('.'))
 author = u'Grzegorz Śliwiński'
 copyright = u'2013, ' + author
@@ -59,7 +59,7 @@ copyright = u'2013, ' + author
 # The short X.Y version.
 
 import re
-with open(os.path.join(os.path.dirname(__file__), '..', '..', 'namespace', 'package', '__init__.py')) as v_file:
+with open(os.path.join(os.path.dirname(__file__), '..', '..', 'pypt', '__init__.py')) as v_file:
     version = re.compile(r".*__version__ = '(.*?)'", re.S).match(v_file.read()).group(1)
 
 # The full version, including alpha/beta/rc tags.
