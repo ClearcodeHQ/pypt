@@ -1,12 +1,12 @@
 pypt
 ====
 
-.. image:: https://travis-ci.org/fizyk/package.png?branch=master
-    :target: https://travis-ci.org/fizyk/package
+.. image:: https://travis-ci.org/fizyk/pypt.png?branch=master
+    :target: https://travis-ci.org/fizyk/pypt
     :alt: Tests for RandomWords
 
-.. image:: https://coveralls.io/repos/fizyk/package/badge.png?branch=master
-    :target: https://coveralls.io/r/fizyk/package?branch=master
+.. image:: https://coveralls.io/repos/fizyk/pypt/badge.png?branch=master
+    :target: https://coveralls.io/r/fizyk/pypt?branch=master
     :alt: Coverage Status
 
 .. image:: https://pypip.in/v/pypt/badge.png
