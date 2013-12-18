@@ -15,9 +15,8 @@ def read(fname):
 requirements = []
 
 test_requires = [
-    'WebTest',
-    'nose',
-    'coverage',
+    'pytest',
+    'pytest-cov'
 ]
 
 extras_require = {
