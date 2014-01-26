@@ -38,6 +38,14 @@ Package status
 
 python package template - to make easier for me to duplicate general package structure.
 
+Package resources
+-----------------
+
+* Bug tracker: https://github.com/fizyk/pypt/issues
+* Documentation: http://pypt.readthedocs.org/
+
+
+
 
 Travis-ci
 ---------
