@@ -1,7 +1,4 @@
-Introduction
-============
-
-This is the main page of every documentation.
+.. include:: ../../README.rst
 
 Contents
 --------
