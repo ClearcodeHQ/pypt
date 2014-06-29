@@ -298,6 +298,7 @@ epub_copyright = u'2012, ' + author
 # Autodoc configuration:
 
 autoclass_content = 'both'
+autodoc_default_flags = ['members', 'show-inheritance']
 
 # Intersphinx configuration
 intersphinx_mapping = {'python': ('http://docs.python.org/', None)}
