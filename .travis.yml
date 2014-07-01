@@ -6,7 +6,9 @@ python:
     - "3.3"
 install:
     - "python setup.py install"
-    - "pip install pypt[tests] coveralls pylama --use-mirrors"
+    - "pip install pypt[tests] coveralls pylama"
+    # manually install wheel for deployment
+    - "pip install wheel"
 script:
     - "py.test"
     - "pylama"
