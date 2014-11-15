@@ -36,8 +36,8 @@ Package status
     :target: https://coveralls.io/r/fizyk/pypt?branch=v0.0.0
     :alt: Coverage Status
 
-.. image:: https://requires.io/github/fizyk/pypt/requirements.svg?branch=v0.0.0
-     :target: https://requires.io/github/fizyk/pypt/requirements/?branch=v0.0.0
+.. image:: https://requires.io/github/fizyk/pypt/requirements.svg?tag=v0.0.0
+     :target: https://requires.io/github/fizyk/pypt/requirements/?tag=v0.0.0
      :alt: Requirements Status
 
 python package template - to make easier for me to duplicate general package structure.
