@@ -14,3 +14,14 @@ script:
     - "pylama"
 after_success:
     - coveralls
+
+deploy:
+    provider: pypi
+    user: fizyk
+    password:
+        secure: "run travis encrypt --add deploy.password"
+    on:
+        tags: true
+        all_branches: true
+        repo: fizyk/pypt
+    distributions: "sdist bdist_wheel"
