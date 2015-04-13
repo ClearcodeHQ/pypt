@@ -29,9 +29,7 @@ setup(
     version=package_version,
     description='It\'s a python package template only',
     long_description=(
-        read('README.rst')
-        + '\n\n' +
-        read('CHANGES.rst')
+        read('README.rst') + '\n\n' + read('CHANGES.rst')
     ),
     keywords='python template',
     author='Grzegorz Sliwinski',
