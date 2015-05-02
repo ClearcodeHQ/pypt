@@ -1,4 +1,4 @@
 include *.rst *.py
-recursive-include pypt *.py
+recursive-include src/pypt *.py
 recursive-include docs *
 prune docs/build
