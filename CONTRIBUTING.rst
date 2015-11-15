@@ -16,9 +16,9 @@ Feature requests/proposals
 --------------------------
 
 #. Use a clear and descriptive title for the proposal
-#. Provide as detailed desription as possible
+#. Provide as detailed description as possible
     * Use case is great to have
-#. There'll be a bit of discussion for the feature. Don't worry, there's nothign wrong with that approach. If it is to be accepted, we'd like to support it, so we need to understand it thoroughly.
+#. There'll be a bit of discussion for the feature. Don't worry, if it is to be accepted, we'd like to support it, so we need to understand it thoroughly.
   
 
 Pull requests
