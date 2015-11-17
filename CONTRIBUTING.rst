@@ -3,7 +3,7 @@ Contribute to pypt
 
 Thank you for taking time to contribute to pypt!
 
-The following is a set of guidelines for contributing to pypt .These are just guidelines, not rules, use your best judgment and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to pypt. These are just guidelines, not rules, use your best judgment and feel free to propose changes to this document in a pull request.
 
 Bug Reports
 -----------
@@ -26,7 +26,7 @@ Pull requests
 
 #. Start with a bug report or feature request
 #. Use a clear and descriptive title
-#. Provide a description - which issue does it refers to, nad what part of the issue is being solved
+#. Provide a description - which issue does it refers to, and what part of the issue is being solved
 #. Be ready for code review :)
 
 Commits
