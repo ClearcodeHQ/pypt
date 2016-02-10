@@ -1,27 +1,23 @@
 pypt
 ====
 
-.. image:: https://pypip.in/v/pypt/badge.png
+.. image:: https://img.shields.io/pypi/v/pypt.svg
     :target: https://pypi.python.org/pypi/pypt/
     :alt: Latest PyPI version
 
 .. image:: https://readthedocs.org/projects/pypt/badge/?version=v0.0.0
-    :target: https://readthedocs.org/projects/pypt/?badge=v0.0.0
+    :target: http://pypt.readthedocs.org/en/v0.0.0/
     :alt: Documentation Status
 
-.. image:: https://pypip.in/d/pypt/badge.png
-    :target: https://pypi.python.org/pypi/pypt/
-    :alt: Number of PyPI downloads
-
-.. image:: https://pypip.in/wheel/pypt/badge.png
+.. image:: https://img.shields.io/pypi/wheel/pypt.svg
     :target: https://pypi.python.org/pypi/pypt/
     :alt: Wheel Status
 
-.. image:: https://pypip.in/egg/pypt/badge.png
+.. image:: https://img.shields.io/pypi/pyversions/pypt.svg
     :target: https://pypi.python.org/pypi/pypt/
-    :alt: Egg Status
+    :alt: Supported Python Versions
 
-.. image:: https://pypip.in/license/pypt/badge.png
+.. image:: https://img.shields.io/pypi/l/pypt.svg
     :target: https://pypi.python.org/pypi/pypt/
     :alt: License
 
