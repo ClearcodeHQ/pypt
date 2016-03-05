@@ -1,5 +1,5 @@
 {
-  "author": "Grzegorz Sliwinski",
+  "author": "Grzegorz Śliwiński",
   "github_username": "fizyk",
   "pypi_username": "{{cookiecutter.github_username}}",
   "project_name": "pypt",
