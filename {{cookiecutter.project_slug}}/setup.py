@@ -10,6 +10,13 @@ with open(os.path.join(here, 'src', '{{cookiecutter.project_slug}}', '__init__.p
 
 
 def read(fname):
+    """
+    Read given file's content.
+
+    :param str fname: file name
+    :returns: file contents
+    :rtype: str
+    """
     return open(os.path.join(here, fname)).read()
 
 requirements = []
