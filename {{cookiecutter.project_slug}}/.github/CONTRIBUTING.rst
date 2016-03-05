@@ -1,9 +1,9 @@
-Contribute to pypt
-==================
+Contribute to {{cookiecutter.project_name}}
+==============
 
-Thank you for taking time to contribute to pypt!
+Thank you for taking time to contribute to {{cookiecutter.project_name}}!
 
-The following is a set of guidelines for contributing to pypt. These are just guidelines, not rules, use your best judgment and feel free to propose changes to this document in a pull request.
+The following is a set of guidelines for contributing to {{cookiecutter.project_name}}. These are just guidelines, not rules, use your best judgment and feel free to propose changes to this document in a pull request.
 
 Bug Reports
 -----------
@@ -41,4 +41,4 @@ Coding style
 ------------
 
 #. All python coding style are being enforced by `Pylama <https://pypi.python.org/pypi/pylama>`_ and configured in pylama.ini file.
-#. Additional, not always mandatory checks are being performed by `QuantifiedCode <https://www.quantifiedcode.com/app/project/gh:fizyk:pypt>`_ 
+#. Additional, not always mandatory checks are being performed by `QuantifiedCode <https://www.quantifiedcode.com/app/project/gh:{{cookiecutter.github_username}}:{{cookiecutter.project_slug}}>`_
