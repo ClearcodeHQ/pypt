@@ -5,11 +5,18 @@ import re
 from setuptools import setup, find_packages
 
 here = os.path.dirname(__file__)
-with open(os.path.join(here, 'src', 'pypt', '__init__.py')) as v_file:
+with open(os.path.join(here, 'src', '{{cookiecutter.project_slug}}', '__init__.py')) as v_file:
     package_version = re.compile(r".*__version__ = '(.*?)'", re.S).match(v_file.read()).group(1)
 
 
 def read(fname):
+    """
+    Read given file's content.
+
+    :param str fname: file name
+    :returns: file contents
+    :rtype: str
+    """
     return open(os.path.join(here, fname)).read()
 
 requirements = []
@@ -25,16 +32,16 @@ extras_require = {
 }
 
 setup(
-    name='pypt',
+    name='{{cookiecutter.project_slug}}',
     version=package_version,
     description='It\'s a python package template only',
     long_description=(
         read('README.rst') + '\n\n' + read('CHANGES.rst')
     ),
     keywords='python template',
-    author='Grzegorz Sliwinski',
-    author_email='fizyk@fizyk.net.pl',
-    url='https://github.com/fizyk/pypt',
+    author='{{cookiecutter.author}}',
+    author_email='{{cookiecutter.email}}',
+    url='https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}',
     license="MIT License",
     classifiers=[
         'Development Status :: 5 - Production/Stable',

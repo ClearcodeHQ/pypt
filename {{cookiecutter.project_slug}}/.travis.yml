@@ -1,7 +1,6 @@
 language: python
 python:
     - "2.7"
-    - "3.2"
     - "3.3"
     - "3.4"
     - "3.5"
@@ -9,22 +8,22 @@ python:
     - "pypy3"
 install:
     - "python setup.py develop"
-    - "pip install pypt[tests] coveralls pylama"
+    - "pip install {{cookiecutter.project_slug}}[tests] coveralls pylama"
     # manually install wheel for deployment
     - "pip install wheel"
 script:
-    - "py.test -v --cov pypt tests/"
+    - "py.test -v --cov {{cookiecutter.project_slug}} tests/"
     - "pylama"
 after_success:
     - coveralls
 
 deploy:
     provider: pypi
-    user: fizyk
+    user: {{cookiecutter.pypi_username}}
     password:
         secure: "run travis encrypt --add deploy.password"
     on:
         tags: true
         all_branches: true
-        repo: fizyk/pypt
+        repo: {{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
     distributions: "sdist bdist_wheel"

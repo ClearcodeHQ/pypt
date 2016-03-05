@@ -13,7 +13,7 @@ Contents
 License
 -------
 
-Copyright (c) 2014 by pypt authors and contributors. See :ref:`authors`
+Copyright (c) {{cookiecutter.year}} by pypt authors and contributors. See :ref:`authors`
 
-This module is part of pypt and is released under
+This module is part of {{cookiecutter.package_name}} and is released under
 the MIT License (MIT): http://opensource.org/licenses/MIT

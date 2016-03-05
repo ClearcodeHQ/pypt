@@ -1,11 +1,9 @@
 # -*- coding: utf-8 -*-
-# Copyright (c) 2013 by pypt authors and contributors <see AUTHORS file>
+# Copyright (c) {{cookiecutter.year}} by {{cookiecutter.project_name}} authors and contributors <see AUTHORS file>
 #
-# This module is part of pypt and is released under
+# This module is part of {{cookiecutter.project_name}} and is released under
 # the MIT License (MIT): http://opensource.org/licenses/MIT
 #
-# pypt documentation build configuration file, created by
-# sphinx-quickstart on Thu Nov  8 20:47:06 2012.
 #
 # This file is execfile()d with the current directory set to its containing dir.
 #
@@ -14,9 +12,6 @@
 #
 # All configuration values have a default; values that are commented out
 # serve to show the default.
-
-import sys
-import os
 
 # If extensions (or modules to document with autodoc) are in another directory,
 # add these directories to sys.path here. If the directory is relative to the
@@ -47,10 +42,10 @@ source_suffix = '.rst'
 master_doc = 'index'
 
 # General information about the project.
-project = u'pypt'
+project = u'{{cookiecutter.project_name}}'
 basename = ''.join(project.split('.'))
-author = u'Grzegorz Śliwiński'
-copyright = u'2013, ' + author
+author = u'{{cookiecutter.author}}'
+copyright = u'{{cookiecutter.year}}, ' + author
 
 # The version info for the project you're documenting, acts as replacement for
 # |version| and |release|, also used in various other places throughout the
@@ -259,7 +254,7 @@ texinfo_documents = [
 epub_title = project
 epub_author = author
 epub_publisher = author
-epub_copyright = u'2012, ' + author
+epub_copyright = u'{{cookiecutter.year}}, ' + author
 
 # The language of the text. It defaults to the language option
 # or en if the language is not set.
