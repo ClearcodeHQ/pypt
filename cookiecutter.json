@@ -1,4 +1,5 @@
 {
+  "author": "Grzegorz Sliwinski",
   "github_username": "fizyk",
   "pypi_username": "{{cookiecutter.github_username}}",
   "project_name": "pypt",
