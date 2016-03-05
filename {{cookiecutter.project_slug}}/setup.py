@@ -32,9 +32,9 @@ setup(
         read('README.rst') + '\n\n' + read('CHANGES.rst')
     ),
     keywords='python template',
-    author='Grzegorz Sliwinski',
-    author_email='fizyk@fizyk.net.pl',
-    url='https://github.com/fizyk/{{cookiecutter.project_slug}}',
+    author='{{cookiecutter.author}}',
+    author_email='{{cookiecutter.email}}',
+    url='https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}',
     license="MIT License",
     classifiers=[
         'Development Status :: 5 - Production/Stable',
