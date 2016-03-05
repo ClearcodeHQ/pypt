@@ -1,7 +1,6 @@
 language: python
 python:
     - "2.7"
-    - "3.2"
     - "3.3"
     - "3.4"
     - "3.5"
@@ -20,11 +19,11 @@ after_success:
 
 deploy:
     provider: pypi
-    user: fizyk
+    user: {{cookiecutter.pypi_username}}
     password:
         secure: "run travis encrypt --add deploy.password"
     on:
         tags: true
         all_branches: true
-        repo: fizyk/{{cookiecutter.project_slug}}
+        repo: {{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
     distributions: "sdist bdist_wheel"
