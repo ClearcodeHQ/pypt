@@ -4,5 +4,6 @@
   "pypi_username": "{{cookiecutter.github_username}}",
   "project_name": "pypt",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
-  "project_version": "0.0.0"
+  "project_version": "0.0.0",
+  "year": "2016"
 }
