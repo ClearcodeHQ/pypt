@@ -8,12 +8,13 @@ python:
     - "pypy3"
 install:
     - "python setup.py develop"
-    - "pip install {{cookiecutter.project_slug}}[tests] coveralls pylama"
+    - "pip install {{cookiecutter.project_slug}}[tests] coveralls pylama pyroma"
     # manually install wheel for deployment
     - "pip install wheel"
 script:
     - "py.test -v --cov {{cookiecutter.project_slug}} tests/"
     - "pylama"
+    - "pyroma"
 after_success:
     - coveralls
 
