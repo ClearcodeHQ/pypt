@@ -5,8 +5,8 @@
     :target: https://pypi.python.org/pypi/{{cookiecutter.project_slug}}/
     :alt: Latest PyPI version
 
-.. image:: https://readthedocs.org/projects/{{cookiecutter.project_slug}}/badge/?version=v{{cookiecutter.project_version}}
-    :target: http://{{cookiecutter.project_slug}}.readthedocs.org/en/v{{cookiecutter.project_version}}/
+.. image:: https://readthedocs.io/projects/{{cookiecutter.project_slug}}/badge/?version=v{{cookiecutter.project_version}}
+    :target: http://{{cookiecutter.project_slug}}.readthedocs.io/en/v{{cookiecutter.project_version}}/
     :alt: Documentation Status
 
 .. image:: https://img.shields.io/pypi/wheel/{{cookiecutter.project_slug}}.svg
