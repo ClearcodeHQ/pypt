@@ -13,7 +13,7 @@ install:
 script:
     - "py.test -v --cov {{cookiecutter.project_slug}} tests/"
     - "pylama"
-    - "pyroma"
+    - "pyroma ."
 after_success:
     - coveralls
 
