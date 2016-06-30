@@ -16,4 +16,4 @@ After that, create a project based on this template:
 Answer questions about specific setting, and enjoy your new python package!
 
 
-You're welcome to suggest any improvements to pypt.
+You're welcome to suggest any improvements to the template.
