@@ -1,4 +1,21 @@
 # -*- coding: utf-8 -*-
+# Copyright (C) {{cookiecutter.year}} by Clearcode <http://clearcode.cc>
+# and associates (see AUTHORS).
+
+# This file is part of {{cookiecutter.project_name}}.
+
+# {{cookiecutter.project_name}} is free software: you can redistribute it and/or modify
+# it under the terms of the GNU Lesser General Public License as published by
+# the Free Software Foundation, either version 3 of the License, or
+# (at your option) any later version.
+
+# {{cookiecutter.project_name}} is distributed in the hope that it will be useful,
+# but WITHOUT ANY WARRANTY; without even the implied warranty of
+# MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+# GNU Lesser General Public License for more details.
+
+# You should have received a copy of the GNU Lesser General Public License
+# along with {{cookiecutter.project_name}}.  If not, see <http://www.gnu.org/licenses/>.
 
 import os
 import re
@@ -34,20 +51,20 @@ extras_require = {
 setup(
     name='{{cookiecutter.project_slug}}',
     version=package_version,
-    description='It\'s a python package template only',
+    description='',
     long_description=(
         read('README.rst') + '\n\n' + read('CHANGES.rst')
     ),
-    keywords='python template',
+    keywords='',
     author='{{cookiecutter.author}}',
     author_email='{{cookiecutter.email}}',
-    url='https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}',
-    license="MIT License",
+    url='https://github.com/ClearcodeHQ/{{cookiecutter.project_slug}}',
+    license='LGPL',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        'License :: OSI Approved :: MIT License',
+        'GNU Lesser General Public License v3 or later (LGPLv3+)'
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',

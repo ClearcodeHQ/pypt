@@ -5,7 +5,7 @@
     :target: https://pypi.python.org/pypi/{{cookiecutter.project_slug}}/
     :alt: Latest PyPI version
 
-.. image:: https://readthedocs.io/projects/{{cookiecutter.project_slug}}/badge/?version=v{{cookiecutter.project_version}}
+.. image:: https://readthedocs.org/projects/{{cookiecutter.project_slug}}/badge/?version=v{{cookiecutter.project_version}}
     :target: http://{{cookiecutter.project_slug}}.readthedocs.io/en/v{{cookiecutter.project_version}}/
     :alt: Documentation Status
 
@@ -24,16 +24,16 @@
 Package status
 --------------
 
-.. image:: https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}.svg?branch=v{{cookiecutter.project_version}}
-    :target: https://travis-ci.org/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
+.. image:: https://travis-ci.org/ClearcodeHQ/{{cookiecutter.project_slug}}.svg?branch=v{{cookiecutter.project_version}}
+    :target: https://travis-ci.org/ClearcodeHQ/{{cookiecutter.project_slug}}
     :alt: Tests
 
-.. image:: https://coveralls.io/repos/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/badge.png?branch=v{{cookiecutter.project_version}}
-    :target: https://coveralls.io/r/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}?branch=v{{cookiecutter.project_version}}
+.. image:: https://coveralls.io/repos/ClearcodeHQ/{{cookiecutter.project_slug}}/badge.png?branch=v{{cookiecutter.project_version}}
+    :target: https://coveralls.io/r/ClearcodeHQ/{{cookiecutter.project_slug}}?branch=v{{cookiecutter.project_version}}
     :alt: Coverage Status
 
-.. image:: https://requires.io/github/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/requirements.svg?tag=v{{cookiecutter.project_version}}
-     :target: https://requires.io/github/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/requirements/?tag=v{{cookiecutter.project_version}}
+.. image:: https://requires.io/github/ClearcodeHQ/{{cookiecutter.project_slug}}/requirements.svg?tag=v{{cookiecutter.project_version}}
+     :target: https://requires.io/github/ClearcodeHQ/{{cookiecutter.project_slug}}/requirements/?tag=v{{cookiecutter.project_version}}
      :alt: Requirements Status
 
 python package template - to make easier for me to duplicate general package structure.
@@ -41,7 +41,7 @@ python package template - to make easier for me to duplicate general package str
 Package resources
 -----------------
 
-* Bug tracker: https://github.com/{{cookiecutter.github_username}}/{{cookiecutter.project_slug}}/issues
+* Bug tracker: https://github.com/ClearcodeHQ/{{cookiecutter.project_slug}}/issues
 * Documentation: http://{{cookiecutter.project_slug}}.readthedocs.org/
 
 

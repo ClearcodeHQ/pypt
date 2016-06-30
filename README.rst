@@ -11,7 +11,7 @@ After that, create a project based on this template:
 
 .. code-block:: bash
 
-    cookiecutter gh:fizyk/pypt
+    cookiecutter gh:ClearcodeHQ/python_package_template
 
 Answer questions about specific setting, and enjoy your new python package!
 

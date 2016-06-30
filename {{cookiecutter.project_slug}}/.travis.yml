@@ -26,5 +26,5 @@ deploy:
     on:
         tags: true
         all_branches: true
-        repo: {{cookiecutter.github_username}}/{{cookiecutter.project_slug}}
+        repo: ClearcodeHQ/{{cookiecutter.project_slug}}
     distributions: "sdist bdist_wheel"

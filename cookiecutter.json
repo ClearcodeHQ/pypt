@@ -1,9 +1,8 @@
 {
-  "author": "Grzegorz Śliwiński",
-  "email": "fizyk@fizyk.net.pl",
-  "github_username": "fizyk",
-  "pypi_username": "{{cookiecutter.github_username}}",
-  "project_name": "pypt",
+  "author": "Clarence",
+  "email": "clarence@clearcode.cc",
+  "pypi_username": "clarence",
+  "project_name": "Clearcode awsome package",
   "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "project_version": "0.0.0",
   "year": "2016"
