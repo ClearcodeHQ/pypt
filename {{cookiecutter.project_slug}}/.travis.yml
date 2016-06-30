@@ -7,10 +7,9 @@ python:
     - "pypy"
     - "pypy3"
 install:
+    - "pip install -r requirements-test.txt"
     - "python setup.py develop"
-    - "pip install {{cookiecutter.project_slug}}[tests] coveralls pylama pyroma"
-    # manually install wheel for deployment
-    - "pip install wheel"
+    - "pip install {{cookiecutter.project_slug}}[tests] coveralls wheel"
 script:
     - "py.test -v --cov {{cookiecutter.project_slug}} tests/"
     - "pylama"
