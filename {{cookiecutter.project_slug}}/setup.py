@@ -64,7 +64,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        'GNU Lesser General Public License v3 or later (LGPLv3+)'
+        'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
