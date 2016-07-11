@@ -1,6 +1,9 @@
 # -*- coding: utf-8 -*-
+# -*- coding: utf-8 -*-
 # Copyright (C) {{cookiecutter.year}} by Clearcode <http://clearcode.cc>
 # and associates (see AUTHORS).
+
+{%- if cookiecutter.license == "LGPLv3" -%}
 
 # This file is part of {{cookiecutter.project_name}}.
 
@@ -15,7 +18,14 @@
 # GNU Lesser General Public License for more details.
 
 # You should have received a copy of the GNU Lesser General Public License
-# along with pytest-dbfixtures.  If not, see <http://www.gnu.org/licenses/>.
+# along with {{cookiecutter.project_name}}.  If not, see <http://www.gnu.org/licenses/>.
+
+{%- elif cookiecutter.license == "MIT" -%}
+
+# This module is part of {{cookiecutter.project_name}} and is released under
+# the MIT License (MIT): http://opensource.org/licenses/MIT
+
+{%- endif -%}
 
 import logging
 

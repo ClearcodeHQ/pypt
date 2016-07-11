@@ -2,6 +2,8 @@
 # Copyright (C) {{cookiecutter.year}} by Clearcode <http://clearcode.cc>
 # and associates (see AUTHORS).
 
+{%- if cookiecutter.license == "LGPLv3" -%}
+
 # This file is part of {{cookiecutter.project_name}}.
 
 # {{cookiecutter.project_name}} is free software: you can redistribute it and/or modify
@@ -16,6 +18,14 @@
 
 # You should have received a copy of the GNU Lesser General Public License
 # along with {{cookiecutter.project_name}}.  If not, see <http://www.gnu.org/licenses/>.
+
+{%- elif cookiecutter.license == "MIT" -%}
+
+# This module is part of {{cookiecutter.project_name}} and is released under
+# the MIT License (MIT): http://opensource.org/licenses/MIT
+
+{%- endif -%}
+
 
 import os
 import re
@@ -64,7 +74,11 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
+        {%- if cookiecutter.license == "LGPLv3" -%}
         'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
+        {%- elif cookiecutter.license == "MIT" -%}
+        'License :: OSI Approved :: MIT License',
+        {%- endif -%}
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
