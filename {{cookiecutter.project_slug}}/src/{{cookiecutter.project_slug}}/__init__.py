@@ -1,10 +1,7 @@
 # -*- coding: utf-8 -*-
-# -*- coding: utf-8 -*-
 # Copyright (C) {{cookiecutter.year}} by Clearcode <http://clearcode.cc>
 # and associates (see AUTHORS).
-
-{%- if cookiecutter.license == "LGPLv3" -%}
-
+{% if cookiecutter.license == "LGPLv3" %}
 # This file is part of {{cookiecutter.project_name}}.
 
 # {{cookiecutter.project_name}} is free software: you can redistribute it and/or modify
@@ -19,13 +16,10 @@
 
 # You should have received a copy of the GNU Lesser General Public License
 # along with {{cookiecutter.project_name}}.  If not, see <http://www.gnu.org/licenses/>.
-
-{%- elif cookiecutter.license == "MIT" -%}
-
+{% elif cookiecutter.license == "MIT" %}
 # This module is part of {{cookiecutter.project_name}} and is released under
 # the MIT License (MIT): http://opensource.org/licenses/MIT
-
-{%- endif -%}
+{% endif %}
 
 import logging
 
