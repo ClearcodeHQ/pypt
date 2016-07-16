@@ -15,7 +15,7 @@
 # GNU Lesser General Public License for more details.
 
 # You should have received a copy of the GNU Lesser General Public License
-# along with {{cookiecutter.project_name}}.  If not, see <http://www.gnu.org/licenses/>.
+# along with {{cookiecutter.project_name}}. If not, see <http://www.gnu.org/licenses/>.
 {% elif cookiecutter.license == "MIT" %}
 # This module is part of {{cookiecutter.project_name}} and is released under
 # the MIT License (MIT): http://opensource.org/licenses/MIT
@@ -23,7 +23,7 @@
 
 import os
 import re
-from setuptools import setup
+from setuptools import setup, find_packages
 
 here = os.path.dirname(__file__)
 with open(os.path.join(here, 'src', '{{cookiecutter.project_slug}}', '__init__.py')) as v_file:
