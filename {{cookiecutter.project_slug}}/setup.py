@@ -76,7 +76,7 @@ setup(
         'Programming Language :: Python :: 3',
         'Topic :: Software Development :: Libraries :: Python Modules',
     ],
-    package_dir = {'': 'src'},
+    package_dir={'': 'src'},
     packages=find_packages('src'),
     install_requires=requirements,
     tests_require=test_requires,
