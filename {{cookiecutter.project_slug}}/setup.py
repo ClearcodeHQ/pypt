@@ -21,6 +21,11 @@
 # the MIT License (MIT): http://opensource.org/licenses/MIT
 {% endif %}
 
+{%- set license_classifiers = {
+    'MIT': 'License :: OSI Approved :: MIT License',
+    'LGPLv3': 'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)'
+} %}
+
 import os
 import re
 from setuptools import setup, find_packages
@@ -68,7 +73,7 @@ setup(
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
         'Intended Audience :: Developers',
-        {% if cookiecutter.license == "LGPLv3" %}'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',{% elif cookiecutter.license == "MIT" %}'License :: OSI Approved :: MIT License',{% endif %}
+        '{{license_classifiers[cookiecutter.license]}}',
         'Natural Language :: English',
         'Operating System :: OS Independent',
         'Programming Language :: Python',
