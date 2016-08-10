@@ -68,7 +68,7 @@ setup(
     author='{{cookiecutter.author}}',
     author_email='{{cookiecutter.email}}',
     url='https://github.com/ClearcodeHQ/{{cookiecutter.pypi_name}}',
-    license='LGPL',
+    license='{{cookiecutter.license}}',
     classifiers=[
         'Development Status :: 5 - Production/Stable',
         'Environment :: Web Environment',
