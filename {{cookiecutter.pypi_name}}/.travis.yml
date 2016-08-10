@@ -9,9 +9,9 @@ python:
 install:
     - "pip install -r requirements-test.txt"
     - "python setup.py develop"
-    - "pip install {{cookiecutter.project_slug}}[tests] coveralls wheel"
+    - "pip install {{cookiecutter.pypi_name}}[tests] coveralls wheel"
 script:
-    - "py.test -v --cov {{cookiecutter.project_slug}} tests/"
+    - "py.test -v --cov {{cookiecutter.package_name}} tests/"
     - "pylama"
     - "pyroma ."
 after_success:
@@ -25,5 +25,5 @@ deploy:
     on:
         tags: true
         all_branches: true
-        repo: ClearcodeHQ/{{cookiecutter.project_slug}}
+        repo: ClearcodeHQ/{{cookiecutter.pypi_name}}
     distributions: "sdist bdist_wheel"

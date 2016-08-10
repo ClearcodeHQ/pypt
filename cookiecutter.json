@@ -3,7 +3,8 @@
   "email": "clarence@clearcode.cc",
   "pypi_username": "clarence",
   "project_name": "Clearcode awsome package",
-  "project_slug": "{{ cookiecutter.project_name.lower().replace(' ', '_').replace('-', '_') }}",
+  "pypi_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
+  "package_name": "{{ cookiecutter.pypi_name.lower().replace('-', '_') }}",
   "project_version": "0.0.0",
   "license": ["LGPLv3", "MIT"],
   "year": "2016"

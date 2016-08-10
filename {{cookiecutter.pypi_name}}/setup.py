@@ -31,7 +31,7 @@ import re
 from setuptools import setup, find_packages
 
 here = os.path.dirname(__file__)
-with open(os.path.join(here, 'src', '{{cookiecutter.project_slug}}', '__init__.py')) as v_file:
+with open(os.path.join(here, 'src', '{{cookiecutter.package_name}}', '__init__.py')) as v_file:
     package_version = re.compile(r".*__version__ = '(.*?)'", re.S).match(v_file.read()).group(1)
 
 
@@ -58,7 +58,7 @@ extras_require = {
 }
 
 setup(
-    name='{{cookiecutter.project_slug}}',
+    name='{{cookiecutter.pypi_name}}',
     version=package_version,
     description='',
     long_description=(
@@ -67,7 +67,7 @@ setup(
     keywords='',
     author='{{cookiecutter.author}}',
     author_email='{{cookiecutter.email}}',
-    url='https://github.com/ClearcodeHQ/{{cookiecutter.project_slug}}',
+    url='https://github.com/ClearcodeHQ/{{cookiecutter.pypi_name}}',
     license='LGPL',
     classifiers=[
         'Development Status :: 5 - Production/Stable',

@@ -1,4 +1,4 @@
 include *.rst *.py
-recursive-include src/{{cookiecutter.project_slug}} *.py
+recursive-include src/{{cookiecutter.package_name}} *.py
 recursive-include docs *
 prune docs/build
