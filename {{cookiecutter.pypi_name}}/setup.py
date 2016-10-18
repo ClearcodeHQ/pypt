@@ -27,12 +27,9 @@
 } %}
 
 import os
-import re
 from setuptools import setup, find_packages
 
 here = os.path.dirname(__file__)
-with open(os.path.join(here, 'src', '{{cookiecutter.package_name}}', '__init__.py')) as v_file:
-    package_version = re.compile(r".*__version__ = '(.*?)'", re.S).match(v_file.read()).group(1)
 
 
 def read(fname):
@@ -59,7 +56,7 @@ extras_require = {
 
 setup(
     name='{{cookiecutter.pypi_name}}',
-    version=package_version,
+    version='{{cookiecutter.project_version}}',
     description='',
     long_description=(
         read('README.rst') + '\n\n' + read('CHANGES.rst')
