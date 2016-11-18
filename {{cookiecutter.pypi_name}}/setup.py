@@ -23,7 +23,8 @@
 
 {%- set license_classifiers = {
     'MIT': 'License :: OSI Approved :: MIT License',
-    'LGPLv3': 'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)'
+    'LGPLv3': 'License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)',
+    'Proprietary': 'License :: Other/Proprietary License'
 } %}
 
 import os

@@ -6,6 +6,6 @@
   "pypi_name": "{{ cookiecutter.project_name.lower().replace(' ', '_') }}",
   "package_name": "{{ cookiecutter.pypi_name.lower().replace('-', '_') }}",
   "project_version": "0.0.0",
-  "license": ["LGPLv3", "MIT"],
+  "license": ["LGPLv3", "MIT", "Proprietary"],
   "year": "2016"
 }
