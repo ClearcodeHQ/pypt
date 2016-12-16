@@ -50,4 +50,4 @@ Package resources
 Travis-ci
 ---------
 
-After creating package on github, move to tracis-ci.org, and turn on ci builds for given package.
+After creating package on github, move to https://travis-ci.org/, and turn on ci builds for given package.
